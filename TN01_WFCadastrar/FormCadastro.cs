@@ -50,7 +50,7 @@ namespace TN01_WFCadastrar
             p1.Escolaridade = cbxEscolaridade.SelectedItem?.ToString();
             p1.RendaMensal = Convert.ToDouble(nudRendaMensal.Value);
 
-            if (rdbMasculino.Checked)
+            if (rdbMasculino.Checked == true)
             {
                 p1.Sexo = 'M';
             }else if (rdbFeminino.Checked)

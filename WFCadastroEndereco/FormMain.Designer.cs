@@ -49,6 +49,7 @@
             mnsCadastrar.Name = "mnsCadastrar";
             mnsCadastrar.Size = new Size(69, 20);
             mnsCadastrar.Text = "Cadastrar";
+            mnsCadastrar.Click += mnsCadastrar_Click;
             // 
             // mnsSobre
             // 

@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="FormCadastro.cs">
+    <Compile Update="FormCadastroEndereco.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
